@@ -33,7 +33,7 @@ GET https://public-api.tracker.gg/v2/apex/standard/profile/{platform}/{platformU
 tenki_data = requests.get(url).json()
 
 #サンプル
-params = {"TRN-Api-Key":"API-KEY"}
+params = {"TRN-Api-Key":6f234f32-c593-407e-8abc-67f21b43e764}
 endpoint = "profile/origin/villager_0x00"
 session = requests.Session()
 req = session.get(base_url+endpoint,params=params)
